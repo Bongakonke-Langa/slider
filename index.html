@@ -4,13 +4,57 @@
     <title>Bonga's Portfolio</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4; /* Light background color */
+            margin: 0;
+            padding: 0;
+        }
+        .main {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .navbar {
+            background-color: #7097A8; /* Dark background for navbar */
+            width: 100%;
+            padding: 15px;
+        }
+        .navbar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .navbar ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+        }
+        .info {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .info h1 {
+            color: #007BFF; /* Attractive color for headings */
+        }
+        .footer {
+            background-color: #7097A8; /* Dark footer background */
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     
     <div class="main">
         <div class="navbar">
-            <img src="pic/Pics/download.jpeg" class="logo">
-
             <ul>
                 <li><a href="home.html">HOME</a></li>
                 <li><a href="about.html">ABOUT</a></li>
@@ -23,20 +67,29 @@
         <div class="info">
             <h3>Hi, I'm <span>Bonga</span>.</h3>
             <h1><span>System</span> <span>D</span>eveloper</h1>
-            <h3> use data to form business insights<br> and recommend changes in businesses and other organizations.<br> Identify issues in virtually any part of an organization,<br> including IT processes, organizational structures, or staff development.</h3>
-                <a href="Hire me.html">Hire Me</a>
+            <h3>Bongakonke leverages technology to enhance operational efficiency<br> and drive innovation in various sectors.<br> He specializes in analyzing system requirements,<br> developing tailored solutions, and optimizing workflows.<br> With a keen eye for detail, he identifies inefficiencies and proposes actionable improvements.<br> His expertise extends to integrating new technologies that align with business goals.<br> Bongakonke is committed to continuous learning, staying updated with industry trends.<br> He collaborates effectively with cross-functional teams to ensure project success.</h3>
+            <a href="Hire me.html">Hire Me</a>
         </div>
 
         <div class="image">
-            <img src="pic/Pics/Bonga.jpg"girl">
+            <img src="pic/Pics/Bonga.jpg" alt="Bonga" style="max-width: 50%; height: auto;"> <!-- Adjusted width to 50% -->
         </div>
+
+    </div>
+
+    <footer class="footer">
 
         <div class="icons">
             <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
             <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
             <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
         </div>
-    </div>
+
+        <p>&copy; 2023 Bongakonke Langa. All rights reserved.</p>
+        <p>Email: bongakonke@example.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/bongakonke" style="color: #007BFF;">linkedin.com/in/bongakonke</a></p>
+    </footer>
 
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
