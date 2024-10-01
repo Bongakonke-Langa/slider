@@ -1,0 +1,12 @@
+{
+  "name": "slider",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "your-actual-dev-command" 
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
